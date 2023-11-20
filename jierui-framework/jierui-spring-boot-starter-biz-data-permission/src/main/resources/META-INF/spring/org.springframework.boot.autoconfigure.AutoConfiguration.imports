@@ -1,0 +1,2 @@
+com.jierui.boot.framework.datapermission.config.JieruiDataPermissionAutoConfiguration
+com.jierui.boot.framework.datapermission.config.JieruiDeptDataPermissionAutoConfiguration

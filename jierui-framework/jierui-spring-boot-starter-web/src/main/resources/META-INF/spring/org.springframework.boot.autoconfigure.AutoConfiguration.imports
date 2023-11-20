@@ -1,0 +1,5 @@
+com.jierui.boot.framework.apilog.config.JieruiApiLogAutoConfiguration
+com.jierui.boot.framework.jackson.config.JieruiJacksonAutoConfiguration
+com.jierui.boot.framework.swagger.config.JieruiSwaggerAutoConfiguration
+com.jierui.boot.framework.web.config.JieruiWebAutoConfiguration
+com.jierui.boot.framework.xss.config.JieruiXssAutoConfiguration

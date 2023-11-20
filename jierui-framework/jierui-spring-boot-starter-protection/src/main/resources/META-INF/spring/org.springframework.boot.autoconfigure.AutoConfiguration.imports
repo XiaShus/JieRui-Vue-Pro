@@ -1,0 +1,2 @@
+com.jierui.boot.framework.idempotent.config.JieruiIdempotentConfiguration
+com.jierui.boot.framework.lock4j.config.JieruiLock4jConfiguration

@@ -1,0 +1,2 @@
+com.jierui.boot.framework.security.config.JieruiSecurityAutoConfiguration
+com.jierui.boot.framework.security.config.JieruiWebSecurityConfigurerAdapter

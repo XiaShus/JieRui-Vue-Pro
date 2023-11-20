@@ -1,0 +1,2 @@
+com.jierui.boot.framework.datasource.config.JieruiDataSourceAutoConfiguration
+com.jierui.boot.framework.mybatis.config.JieruiMybatisAutoConfiguration

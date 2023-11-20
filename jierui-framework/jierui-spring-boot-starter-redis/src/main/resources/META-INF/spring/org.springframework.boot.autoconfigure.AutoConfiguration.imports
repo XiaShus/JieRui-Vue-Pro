@@ -1,0 +1,2 @@
+com.jierui.boot.framework.redis.config.JieruiRedisAutoConfiguration
+com.jierui.boot.framework.redis.config.JieruiCacheAutoConfiguration

@@ -1,0 +1,2 @@
+com.jierui.boot.framework.quartz.config.JieruiQuartzAutoConfiguration
+com.jierui.boot.framework.quartz.config.JieruiAsyncAutoConfiguration
