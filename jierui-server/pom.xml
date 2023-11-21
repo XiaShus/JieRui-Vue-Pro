@@ -33,6 +33,16 @@
         </dependency>
         <dependency>
             <groupId>com.jierui.boot</groupId>
+            <artifactId>jierui-module-visual-biz</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.jierui.boot</groupId>
+            <artifactId>jierui-module-iot-biz</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.jierui.boot</groupId>
             <artifactId>jierui-spring-boot-starter-biz-error-code</artifactId>
         </dependency>
 

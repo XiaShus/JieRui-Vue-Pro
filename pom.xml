@@ -15,6 +15,8 @@
         <!-- 各种 module 拓展 -->
         <module>jierui-module-system</module>
         <module>jierui-module-infra</module>
+        <module>jierui-module-visual</module>
+        <module>jierui-module-iot</module>
     </modules>
 
     <name>${project.artifactId}</name>

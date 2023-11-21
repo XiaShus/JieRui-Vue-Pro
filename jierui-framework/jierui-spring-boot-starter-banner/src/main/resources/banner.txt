@@ -1,4 +1,3 @@
-张杰瑞 http://www.iocoder.cn
 Application Version: ${jierui.info.version}
 Spring Boot Version: ${spring-boot.version}
 
