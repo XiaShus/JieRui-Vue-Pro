@@ -3,4 +3,4 @@
  *
  * 目前使用 MapStruct 框架
  */
-package com.jierui.boot.module.system.convert;
+package com.jierui.boot.module.visual.convert;

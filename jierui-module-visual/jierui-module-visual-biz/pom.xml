@@ -28,7 +28,11 @@
             <artifactId>jierui-module-infra-api</artifactId>
             <version>${revision}</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.jierui.boot</groupId>
+            <artifactId>jierui-module-visual-api</artifactId>
+            <version>${revision}</version>
+        </dependency>
         <!-- 业务组件 -->
         <dependency>
             <groupId>com.jierui.boot</groupId>

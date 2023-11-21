@@ -6,4 +6,4 @@
  *
  * 其中，MySQL 的表以 system_ 作为前缀
  */
-package com.jierui.boot.module.visual.dal.mysql;
+package com.jierui.boot.module.iot.dal.mysql;
