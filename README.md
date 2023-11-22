@@ -1,27 +1,16 @@
-## 本分支为精简版
-* 移除了完整版的 工作流、支付、报表、测试等模块，只保留了系统管理、基础设施
-
-## 🐶 新手必读
-
-* 演示地址【Vue3 + element-plus】：<http://dashboard-vue3.jierui.iocoder.cn>
-* 演示地址【Vue3 + vben(ant-design-vue)】：<http://dashboard-vben.jierui.iocoder.cn>
-* 演示地址【Vue2 + element-ui】：<http://dashboard.jierui.iocoder.cn>
-* 启动文档：<https://doc.iocoder.cn/quick-start/>
-* 视频教程：<https://doc.iocoder.cn/video/>
-
-已支持 Spring Boot 3.X + JDK 17 版本，可见 [master-boot3](https://gitee.com/zhijiantianya/ruoyi-vue-pro/blob/master/README.md) 分支。
-
 ## 🐯 平台简介
 
-**杰瑞**，以开发者为中心，打造中国第一流的快速开发平台，全部开源，个人与企业可 100% 免费使用。
+**智慧工地平台**，作者想以自己的业务经验进行沉淀成为一个大型完整的业务平台。
 
-> 有任何问题，或者想要的功能，可以在 _Issues_ 中提给艿艿。
+项目修改自 **[ruoyi-vue-pro](https://gitee.com/zhijiantianya/ruoyi-vue-pro)** ，这是一个很棒的快速开发平台。
+
+> 有任何问题，或者想要的功能，可以在 _Issues_ 中提给杰瑞。
 >
 > 😜 给项目点点 Star 吧，这对我们真的很重要！
 
 ![架构图](/.image/common/ruoyi-vue-pro-architecture.png)
 
-* 管理后台的电脑端：Vue3 提供 [element-plus](https://gitee.com/jieruicode/jierui-ui-admin-vue3)、[vben(ant-design-vue)](https://gitee.com/jieruicode/jierui-ui-admin-vben) 两个版本，Vue2 提供 [element-ui](https://gitee.com/zhijiantianya/ruoyi-vue-pro/tree/master/jierui-ui-admin) 版本
+* 管理后台的电脑端：Vue3 提供 [vben(ant-design-vue)](https://gitee.com/jieruicode/jierui-ui-admin-vben) 版本，Vue2 提供 [element-ui](https://gitee.com/zhijiantianya/ruoyi-vue-pro/tree/master/jierui-ui-admin) 版本
 * 管理后台的移动端：采用 [uni-app](https://github.com/dcloudio/uni-app) 方案，一份代码多终端适配，同时支持 APP、小程序、H5！
 * 后端采用 Spring Boot 多模块架构、MySQL + MyBatis Plus、Redis + Redisson
 * 数据库可使用 MySQL、Oracle、PostgreSQL、SQL Server、MariaDB、国产达梦 DM、TiDB 等
@@ -32,65 +21,7 @@
 * 集成微信小程序、微信公众号、企业微信、钉钉等三方登陆，集成支付宝、微信等支付与退款
 * 集成阿里云、腾讯云等短信渠道，集成 MinIO、阿里云、腾讯云、七牛云等云存储服务
 
-##  🐳 项目关系
 
-![架构演进](/.image/common/jierui-roadmap.png)
-
-三个项目的功能对比，可见社区共同整理的 [国产开源项目对比](https://www.yuque.com/xiatian-bsgny/lm0ec1/wqf8mn) 表格。
-
-### 后端项目
-
-
-| 项目                                                              | Star                                                                                                                                                                                                                                                                                             | 简介                          |
-|-----------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|
-| [ruoyi-vue-pro](https://gitee.com/zhijiantianya/ruoyi-vue-pro)  | [![Gitee star](https://gitee.com/zhijiantianya/ruoyi-vue-pro/badge/star.svg?theme=white)](https://gitee.com/zhijiantianya/ruoyi-vue-pro) [![GitHub stars](https://img.shields.io/github/stars/YunaiV/ruoyi-vue-pro.svg?style=social&label=Stars)](https://github.com/YunaiV/ruoyi-vue-pro)       | 基于 Spring Boot 多模块架构        |
-| [jierui-cloud](https://gitee.com/zhijiantianya/jierui-cloud)      | [![Gitee star](https://gitee.com/zhijiantianya/jierui-cloud/badge/star.svg?theme=white)](https://gitee.com/zhijiantianya/jierui-cloud) [![GitHub stars](https://img.shields.io/github/stars/YunaiV/jierui-cloud.svg?style=social&label=Stars)](https://github.com/YunaiV/jierui-cloud)               | 基于 Spring Cloud 微服务架构       |
-| [Spring-Boot-Labs](https://gitee.com/jieruicode/SpringBoot-Labs) | [![Gitee star](https://gitee.com/jieruicode/SpringBoot-Labs/badge/star.svg?theme=white)](https://gitee.com/zhijiantianya/jierui-cloud) [![GitHub stars](https://img.shields.io/github/stars/jieruicode/SpringBoot-Labs.svg?style=social&label=Stars)](https://github.com/jieruicode/SpringBoot-Labs) | 系统学习 Spring Boot & Cloud 专栏 |
-
-### 前端项目
-
-| 项目                                                                                                       | Star                                                                                                                                                                                                                                                                                                                                                           | 简介                                     |
-|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
-| [jierui-ui-admin-vue3](https://gitee.com/jieruicode/jierui-ui-admin-vue3)                                   | [![Gitee star](https://gitee.com/jieruicode/jierui-ui-admin-vue3/badge/star.svg?theme=white)](https://gitee.com/jieruicode/jierui-ui-admin-vue3) [![GitHub stars](https://img.shields.io/github/stars/jieruicode/jierui-ui-admin-vue3.svg?style=social&label=Stars)](https://github.com/jieruicode/jierui-ui-admin-vue3)                                               | 基于 Vue3 + element-plus 实现的管理后台         |
-| [jierui-ui-admin-vben](https://gitee.com/jieruicode/jierui-ui-admin-vben)                                   | [![Gitee star](https://gitee.com/jieruicode/jierui-ui-admin-vben/badge/star.svg?theme=white)](https://gitee.com/jieruicode/jierui-ui-admin-vben) [![GitHub stars](https://img.shields.io/github/stars/jieruicode/jierui-ui-admin-vben.svg?style=social&label=Stars)](https://github.com/jieruicode/jierui-ui-admin-vben)                                               | 基于 Vue3 + vben(ant-design-vue) 实现的管理后台 |
-| [jierui-ui-admin](https://gitee.com/zhijiantianya/ruoyi-vue-pro/tree/master/jierui-ui-admin)               | [![Gitee star](https://gitee.com/zhijiantianya/ruoyi-vue-pro/badge/star.svg?theme=white)](https://gitee.com/zhijiantianya/ruoyi-vue-pro/tree/master/jierui-ui-admin) [![GitHub stars](https://img.shields.io/github/stars/YunaiV/ruoyi-vue-pro.svg?style=social&label=Stars)](https://github.com/YunaiV/ruoyi-vue-pro/tree/master/jierui-ui-admin)               | 基于 Vue2 + element-ui 实现的管理后台           |
-| [jierui-ui-admin-uniapp](https://gitee.com/zhijiantianya/ruoyi-vue-pro/tree/master/jierui-ui-admin-uniapp) | [![Gitee star](https://gitee.com/zhijiantianya/ruoyi-vue-pro/badge/star.svg?theme=white)](https://gitee.com/zhijiantianya/ruoyi-vue-pro/tree/master/jierui-ui-admin-uniapp) [![GitHub stars](https://img.shields.io/github/stars/YunaiV/ruoyi-vue-pro.svg?style=social&label=Stars)](https://github.com/YunaiV/ruoyi-vue-pro/tree/master/jierui-ui-admin-uniapp) | 基于 uni-app + uni-ui 实现的管理后台的小程序        |
-| [jierui-ui-go-view](https://gitee.com/jieruicode/jierui-ui-go-view)                                         | [![Gitee star](https://gitee.com/jieruicode/jierui-ui-go-view/badge/star.svg?theme=white)](https://gitee.com/jieruicode/jierui-ui-go-view) [![GitHub stars](https://img.shields.io/github/stars/jieruicode/jierui-ui-go-view.svg?style=social&label=Stars)](https://github.com/jieruicode/jierui-ui-go-view)                                                           | 基于 Vue3 + naive-ui 实现的大屏报表             |
-| [jierui-mall-uniapp](https://gitee.com/jieruicode/jierui-mall-uniapp)                   | [![Gitee star](https://gitee.com/jieruicode/jierui-mall-uniapp/badge/star.svg?theme=white)](https://gitee.com/jieruicode/jierui-mall-uniapp) [![GitHub stars](https://img.shields.io/github/stars/jieruicode/jierui-mall-uniapp.svg?style=social&label=Stars)](https://github.com/jieruicode/jierui-mall-uniapp)                   | 基于 uni-app 实现的商城小程序                    |
-
-## 🐰 分支说明
-
-|       | JDK 8 完整版                                                 | JDK 8 精简版                                                          | JDK 17 完整版                                                                  |
-|-------|-----------------------------------------------------------|--------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| 分支    | [`master`](https://gitee.com/zhijiantianya/ruoyi-vue-pro) | [`mini`](https://gitee.com/zhijiantianya/ruoyi-vue-pro/tree/mini/) | [`master-boot3`](https://gitee.com/zhijiantianya/ruoyi-vue-pro/tree/master-boot3/) |
-| 说明    | 包括所有功能                                                    | 只保留核心功能                                                            | 适配 Spring Boot 3.X                                                          |
-| 系统功能  | √                                                         | √                                                                  | √                                                                           |
-| 基础设施  | √                                                         | √                                                                  | √                                                                           |
-| 会员中心  | √                                                         | √                                                                  | √                                                                           |
-| 工作流程  | √                                                         | x                                                                  | √                                                                         |
-| 数据报表  | √                                                         | x                                                                  | 适配中                                                                         |
-| 商城系统  | √                                                         | x                                                                  | √                                                                           |
-| 微信公众号 | √                                                         | x                                                                  | √                                                                           |
-
-## 😎 开源协议
-
-**为什么推荐使用本项目？**
-
-① 本项目采用比 Apache 2.0 更宽松的 [MIT License](https://gitee.com/zhijiantianya/ruoyi-vue-pro/blob/master/LICENSE) 开源协议，个人与企业可 100% 免费使用，不用保留类作者、Copyright 信息。
-
-② 代码全部开源，不会像其他项目一样，只开源部分代码，让你无法了解整个项目的架构设计。[国产开源项目对比](https://www.yuque.com/xiatian-bsgny/lm0ec1/wqf8mn)
-
-![开源项目对比](/.image/common/project-vs.png)
-
-③ 代码整洁、架构整洁，遵循《阿里巴巴 Java 开发手册》规范，代码注释详细，57000 行 Java 代码，22000 行代码注释。
-
-## 🤝 项目外包
-
-我们也是接外包滴，如果你有项目想要外包，可以微信联系【**xinyu370**】。
-
-团队包含专业的项目经理、架构师、前端工程师、后端工程师、测试工程师、运维工程师，可以提供全流程的外包服务。
-
-项目可以是商城、SCRM 系统、OA 系统、物流系统、ERP 系统、CMS 系统、HIS 系统、支付系统、IM 聊天、微信公众号、微信小程序等等。
 
 ## 🐼 内置功能
 
@@ -100,12 +31,10 @@
 
 * 系统功能
 * 基础设施
-* 工作流程
-* 支付系统
-* 会员中心
-* 数据报表
-* 商城系统
-* 微信公众号
+* 数据可视化
+* 物联网中台
+* 流程中心
+* BIM中心
 
 > 友情提示：本项目基于 RuoYi-Vue 修改，**重构优化**后端的代码，**美化**前端的界面。
 >
@@ -161,18 +90,22 @@
 | 🚀  | 日志服务     | 轻量级日志中心，查看远程服务器的日志                           |
 
 
+
 ## 🐨 技术栈
 
 ### 模块
 
-| 项目                                                                       | 说明                 |
-|--------------------------------------------------------------------------|--------------------|
-| `jierui-dependencies`                                                     | Maven 依赖版本管理       |
-| `jierui-framework`                                                        | Java 框架拓展          |
-| `jierui-server`                                                           | 管理后台 + 用户 APP 的服务端 |
-| `jierui-module-system`                                                    | 系统功能的 Module 模块    |
-| `jierui-module-member`                                                    | 会员中心的 Module 模块    |
-| `jierui-module-infra`                                                     | 基础设施的 Module 模块    |
+| 项目                    | 说明                         |
+| ----------------------- | ---------------------------- |
+| `jierui-dependencies`   | Maven 依赖版本管理           |
+| `jierui-framework`      | Java 框架拓展                |
+| `jierui-server`         | 管理后台 + 用户 APP 的服务端 |
+| `jierui-module-system`  | 系统功能的 Module 模块       |
+| `jierui-module-infra`   | 基础设施的 Module 模块       |
+| `jierui-module-visual`  | 数据可视化的 Module 模块     |
+| `jierui-module-iot`     | 物联网中台的 Module 模块     |
+| `jierui-module-process` | 流程中心的 Module 模块       |
+| `jierui-module-bim`     | BIM中心的 Module 模块        |
 
 ### 框架
 
@@ -225,5 +158,4 @@
 | API 日志        | ![访问日志](/.image/访问日志.jpg)     | ![错误日志](/.image/错误日志.jpg)   | -                         |
 | MySQL & Redis | ![MySQL](/.image/MySQL.jpg)   | ![Redis](/.image/Redis.jpg) | -                         |
 | 监控平台          | ![Java监控](/.image/Java监控.jpg) | ![链路追踪](/.image/链路追踪.jpg)   | ![日志中心](/.image/日志中心.jpg) |
-
 
